@@ -16,13 +16,13 @@ A modern React-based news application that delivers the latest headlines from ar
 Below are some screenshots of the DailyNews application in action:
 
 ### Home Page
-![Home Page](src/components/Screenshot%20(1).png)
+![Home Page](src/components/Screenshot1.png)
 
 ### Category Page
-![Category Page](src/components/Screenshot%20(2).png)
+![Category Page](src/components/Screenshot2.png)
 
 ### Loading Spinner
-![Loading Spinner](src/components/Screenshot%20(3).png)
+![Loading Spinner](src/components/Screenshot3.png)
 
 ## Installation
 

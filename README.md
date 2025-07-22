@@ -18,7 +18,7 @@ Below are some screenshots of the DailyNews application in action:
 ### Home Page
 ![Home Page](src/components/Screenshot1.png)
 
-### Category Page
+### Mobile View
 ![Category Page](src/components/Screenshot2.png)
 
 ### Loading Spinner

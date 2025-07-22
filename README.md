@@ -19,10 +19,10 @@ Below are some screenshots of the DailyNews application in action:
 ![Home Page](src/components/Screenshot1.png)
 
 ### Mobile View
-![Category Page](src/components/Screenshot2.png)
+![Mobile View](src/components/Screenshot2.png)
 
-### Loading Spinner
-![Loading Spinner](src/components/Screenshot3.png)
+### Toggle Menu
+![Toggle Menu](src/components/Screenshot3.png)
 
 ## Installation
 

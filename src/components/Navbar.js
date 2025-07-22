@@ -1,7 +1,11 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
+  const location = useLocation();
+  const getActiveClass = (path) =>
+    location.pathname === path ? "nav-link active" : "nav-link";
+
   return (
     <div>
       <nav className="navbar fixed-top navbar-expand-lg bg-dark navbar-dark">
@@ -24,7 +28,7 @@ const Navbar = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link
-                  className="nav-link active"
+                  className={getActiveClass("/home")}
                   aria-current="page"
                   to="/home"
                 >
@@ -32,37 +36,37 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/business">
+                <Link className={getActiveClass("/business")} to="/business">
                   Business
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/entertainment">
+                <Link className={getActiveClass("/entertainment")} to="/entertainment">
                   Entertainment
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/general">
+                <Link className={getActiveClass("/general")} to="/general">
                   General
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/health">
+                <Link className={getActiveClass("/health")} to="/health">
                   Health
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/science">
+                <Link className={getActiveClass("/science")} to="/science">
                   Science
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/sports">
+                <Link className={getActiveClass("/sports")} to="/sports">
                   Sports
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/technology">
+                <Link className={getActiveClass("/technology")} to="/technology">
                   Technology
                 </Link>
               </li>
